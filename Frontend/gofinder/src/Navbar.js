@@ -9,7 +9,7 @@ const NavBar = () => {
     <>
     <div className="navbar">
   <Navbar bg="light" variant="light">
-    <Navbar.Brand href="#home">goFinder</Navbar.Brand>
+    <Navbar.Brand href="#home">goReach</Navbar.Brand>
     
   </Navbar>
   </div>
