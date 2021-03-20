@@ -1,20 +1,17 @@
-import React from 'react';
-import { Button, Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import React from 'react'
+import './Navbar.css'
+
+import logoImage from '../assets/goCometlogo2.png'
 const NavBar = () => {
-
- 
-
-
-  return(
+  return (
     <>
-    <div className="navbar">
-  <Navbar bg="light" variant="light">
-    <Navbar.Brand href="#home">goReach</Navbar.Brand>
-    
-  </Navbar>
-  </div>
-        </>
-    )
+      <div className="navbar">
+        <div className="navLogo">
+          <img src={logoImage}></img>
+        </div>
+      </div>
+    </>
+  )
 }
 
-export default NavBar;
+export default NavBar

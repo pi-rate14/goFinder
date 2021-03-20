@@ -1,0 +1,14 @@
+.inpContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inpLabel {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.inpDropdown {
+  padding: 100px;
+}

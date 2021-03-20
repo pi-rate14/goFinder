@@ -1,0 +1,76 @@
+.accordion {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.card {
+  background-color: #e5f3ff;
+  border: none;
+  margin-top: 25px;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  flex: 0.6;
+}
+
+.Name {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.Accheader {
+  background-color: #e5f3ff;
+}
+
+.Acccolapse {
+  border: none;
+}
+
+.imgContainer {
+  flex: 0.3;
+  background-color: #e5f3ff;
+  width: 20%;
+}
+
+.imgContainer img {
+  max-width: 100%;
+}
+
+.collapseContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  width: 43%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.linkedinSVG {
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.linkedinURL {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.specialities {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
