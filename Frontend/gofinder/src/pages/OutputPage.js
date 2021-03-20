@@ -2,9 +2,7 @@ import React from 'react'
 import { positions } from './Data'
 import { Accordion, Card } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import logoImage from '../assets/goFinderlogo.svg'
 import './OutputPage.css'
-import NavBar from '../components/Navbar'
 
 const OutputPage = ({ company }) => {
   console.log(company)
@@ -19,7 +17,7 @@ const OutputPage = ({ company }) => {
           <Accordion.Toggle className="Accheader" as={Card.Header} eventKey="0">
             <div className="cardContent">
               <div className="imgContainer">
-                <img src={positions[company][0].imgUrl}></img>
+                <img src={positions[company][0].imgUrl} alt=""></img>
               </div>
               <div className="contentContainer">
                 <div className="Name">{positions[company][0].Name}</div>
@@ -76,7 +74,7 @@ const OutputPage = ({ company }) => {
                   </div>
                   <div className="linkedinContainer">
                     <div className="linkedinURL">
-                      <a href={positions[company][0].Linkedin} target="_blank">
+                      <a href={positions[company][0].Linkedin} without rel="noreferrer" target="_blank">
                         Linkedin
                       </a>
                     </div>

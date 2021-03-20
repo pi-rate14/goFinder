@@ -1,14 +1,11 @@
-import React, { Component, useState, useEffect } from 'react'
+import React, { useState } from 'react'
 //import InputComponent from '../components/InputComponent'
 import NavBar from '../components/Navbar'
 import '../components/InputComponent.css'
-import { FormControl, Form } from 'react-bootstrap'
+import {  Form } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { categories, companies, positions } from './Data'
+import { categories, companies } from './Data'
 import OutputPage from './OutputPage'
-import Button from '../components/Button'
-import { Link } from 'react-router-dom'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import img1 from '../assets/Frame.png'
 import img2 from '../assets/Frame2.png'
 import img3 from '../assets/Vector.png'
@@ -23,13 +20,13 @@ function InputPage() {
     <>
       <NavBar />
       <div className="backgroundSvg1">
-        <img src={img1}></img>
+        <img alt="" src={img1}></img>
       </div>
       <div className="backgroundSvg2">
-        <img src={img2}></img>
+        <img alt="" src={img2}></img>
       </div>
       <div className="backgroundSvg3">
-        <img src={img3}></img>
+        <img alt=""src={img3}></img>
       </div>
       <div className="dropdownContainer">
         <InputComponent
@@ -55,7 +52,6 @@ function InputComponent(props) {
       return <option className="option">{X}</option>
     }
 
-  const [select, setSelect] = useState(props.inpContent[0])
 
   const handleChange = (e) => {
     props.passData(e.target.value)

@@ -1,5 +1,4 @@
 import './index.css'
-import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import InputPage from './pages/InputPage'
 import OutputPage from './pages/OutputPage'
