@@ -6,10 +6,11 @@ import logoImage from '../assets/goCometlogo2.png'
 import './OutputPage.css'
 import NavBar from '../components/Navbar'
 
-const OutputPage = ({ category, company }) => {
+const OutputPage = ({ company }) => {
   console.log(company)
-  console.log(positions[category][company][0].Name)
-
+  console.log(positions[company])
+  console.log(positions[company][0].Name)
+  console.log(positions)
   return (
     <>
       {/* <NavBar /> */}
@@ -21,10 +22,8 @@ const OutputPage = ({ category, company }) => {
                 <img src={logoImage}></img>
               </div>
               <div className="contentContainer">
-                <div className="Name">
-                  {positions[category][company][0].Name}
-                </div>
-                <div className="position">Head of logistics, Google</div>
+                <div className="Name">{positions[company][0].Name}</div>
+                <div className="position">{positions[company][0].Position}</div>
               </div>
               <div className="svgContainer">
                 <svg
@@ -49,11 +48,13 @@ const OutputPage = ({ category, company }) => {
             <Card.Body>
               <div className="collapseContent">
                 <div className="specialities">
-                  Trained in HTML CSS ETC BULLSHIT
+                  {positions[company][0].allskills}
                 </div>
                 <div className="contact">
                   <div className="locationContainer">
-                    <div className="location">India</div>
+                    <div className="location">
+                      {positions[company][0].location}
+                    </div>
                     <div className="locationsvg">
                       <svg
                         width="1.3rem"
@@ -75,10 +76,7 @@ const OutputPage = ({ category, company }) => {
                   </div>
                   <div className="linkedinContainer">
                     <div className="linkedinURL">
-                      <a
-                        href="https://www.linkedin.com/in/christa-langner-9a6a3965/"
-                        target="_blank"
-                      >
+                      <a href={positions[company][0].Linkedin} target="_blank">
                         Linkedin
                       </a>
                     </div>

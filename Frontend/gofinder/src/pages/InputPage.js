@@ -42,12 +42,17 @@ function InputPage() {
           inpContent={companies[category]}
           passData={setCompany}
         />
-        <Link to="/output">
+        <Link
+          to={{
+            pathname: '/output',
+            param1: company,
+          }}
+        >
           <Button btnValue="Start Searching"></Button>
         </Link>
       </div>
 
-      <OutputPage category={category} company={company}></OutputPage>
+      <OutputPage company={company}></OutputPage>
     </>
   )
 }
