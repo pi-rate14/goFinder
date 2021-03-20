@@ -53,10 +53,23 @@
 }
 
 .contact {
-  width: 43%;
+  width: 40%;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.linkedinContainer {
+  display: flex;
+}
+
+.location {
+  padding-right: 20px;
+}
+
+.locationContainer {
+  display: flex;
 }
 
 .linkedinSVG {
@@ -67,7 +80,7 @@
 .linkedinURL {
   font-size: 0.8rem;
   font-weight: 700;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .specialities {

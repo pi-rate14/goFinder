@@ -1,5 +1,6 @@
 import React from 'react'
 import '../index.css'
+import { Link } from 'react-router-dom'
 import Button from '../components/Button'
 import logoImage from '../assets/goCometlogo2.png'
 const HomePage = () => {
@@ -29,7 +30,9 @@ const HomePage = () => {
         <div className="logoContainer">
           <img className="logoImage" src={logoImage} alt="logo"></img>
           <div className="btnContainer">
-            <Button btnValue="Start Searching"></Button>
+            <Link to="/input">
+              <Button btnValue="Start Searching"></Button>
+            </Link>
           </div>
         </div>
       </div>

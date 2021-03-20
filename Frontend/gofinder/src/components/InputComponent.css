@@ -1,14 +1,61 @@
 .inpContainer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.inpContainer:first-child {
+  padding-top: 50px;
 }
 
 .inpLabel {
-  font-size: 36px;
+  font-size: 1.22rem;
   font-weight: 600;
 }
 
 .inpDropdown {
   padding: 100px;
+  border: 2px solid #0054ff;
+  width: 40%;
+}
+
+.option {
+  padding: 40px;
+}
+
+.backgroundSvg1 {
+  z-index: -20;
+  position: absolute;
+  width: 30vw;
+  height: 50vh;
+}
+.backgroundSvg2 {
+  z-index: -20;
+  position: absolute;
+  margin-top: 30%;
+  width: 50vw;
+  height: 20vh;
+}
+
+.backgroundSvg3 {
+  z-index: -25;
+  position: absolute;
+  margin-top: 70vh;
+  width: 100vw;
+  height: 20vh;
+}
+
+.backgroundSvg1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.backgroundSvg2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.backgroundSvg3 img {
+  width: 100%;
+  max-height: 100%;
 }
