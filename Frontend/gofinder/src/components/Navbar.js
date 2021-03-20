@@ -6,8 +6,8 @@ const NavBar = () => {
   return (
     <>
       <div className="navbar">
-        <div className="navLogo">
-          <img src={logoImage}></img>
+        <div  className="navLogo">
+          <img href="/" src={logoImage}></img>
         </div>
       </div>
     </>
