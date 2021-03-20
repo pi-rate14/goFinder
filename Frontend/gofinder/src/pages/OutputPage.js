@@ -2,7 +2,7 @@ import React from 'react'
 import { positions } from './Data'
 import { Accordion, Card } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import logoImage from '../assets/goCometlogo2.png'
+import logoImage from '../assets/goFinderlogo.svg'
 import './OutputPage.css'
 import NavBar from '../components/Navbar'
 

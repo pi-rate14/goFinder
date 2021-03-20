@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 
-import logoImage from '../assets/goCometlogo2.png'
+import logoImage from '../assets/goFinderlogo.svg'
 const NavBar = () => {
   return (
     <>
