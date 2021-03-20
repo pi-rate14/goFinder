@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 .btnText {
@@ -15,4 +16,10 @@
   text-align: center;
   color: white;
   font-weight: 500;
+  text-decoration: none !important;
+}
+
+.primaryBtn:hover {
+  background-color: #518bff;
+  transition: 0.2s ease;
 }

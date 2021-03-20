@@ -19,7 +19,7 @@ const OutputPage = ({ company }) => {
           <Accordion.Toggle className="Accheader" as={Card.Header} eventKey="0">
             <div className="cardContent">
               <div className="imgContainer">
-                <img src={logoImage}></img>
+                <img src={positions[company][0].imgUrl}></img>
               </div>
               <div className="contentContainer">
                 <div className="Name">{positions[company][0].Name}</div>
@@ -48,7 +48,7 @@ const OutputPage = ({ company }) => {
             <Card.Body>
               <div className="collapseContent">
                 <div className="specialities">
-                  {positions[company][0].allskills}
+                  {positions[company][0].allSkills}
                 </div>
                 <div className="contact">
                   <div className="locationContainer">

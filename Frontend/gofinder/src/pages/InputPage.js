@@ -42,14 +42,6 @@ function InputPage() {
           inpContent={companies[category]}
           passData={setCompany}
         />
-        <Link
-          to={{
-            pathname: '/output',
-            param1: company,
-          }}
-        >
-          <Button btnValue="Start Searching"></Button>
-        </Link>
       </div>
 
       <OutputPage company={company}></OutputPage>
@@ -78,7 +70,7 @@ function InputComponent(props) {
         <Form.Group>
           <Form.Control
             as="select"
-            onChange={handleChange}
+            onClick={handleChange}
             className="inpDropdown"
           >
             {Data.map(MakeItem)}

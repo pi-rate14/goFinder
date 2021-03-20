@@ -12,7 +12,7 @@ export const categories = [
 export const companies = {
   Electrical: ['EuroSMC S.A.'],
   'Industrial Engineering': ['Sintex a/s'],
-  Textile: ['White Cross Rubber Products', 'Textile Industry Affairs'],
+  Textile: ['White Cross Rubber Products', 'Textiles Industry Affairs'],
   Pharmaceutical: [
     'Pharmaceutical Industry',
     'Pharmaceutical Industry Association',
