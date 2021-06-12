@@ -2,7 +2,7 @@ import React from 'react'
 import '../index.css'
 import { Link } from 'react-router-dom'
 import Button from '../components/Button'
-import logoImage from '../assets/goCometlogo2.png'
+import logoImage from '../assets/goFinderlogo.svg'
 const HomePage = () => {
   return (
     <>

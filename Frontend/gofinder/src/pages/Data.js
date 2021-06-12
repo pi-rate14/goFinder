@@ -1,4 +1,3 @@
-import NewData from './result'
 
 export const categories = [
   'Electrical',
