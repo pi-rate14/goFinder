@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { positions } from './Data'
 import { Accordion, Card } from 'react-bootstrap'
@@ -106,3 +107,4 @@ const OutputPage = ({ company }) => {
 }
 
 export default OutputPage
+
