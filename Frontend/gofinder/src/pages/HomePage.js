@@ -1,8 +1,8 @@
-import React from 'react'
-import '../index.css'
-import { Link } from 'react-router-dom'
-import Button from '../components/Button'
-import logoImage from '../assets/goCometlogo2.png'
+import React from "react";
+import "../index.css";
+import { Link } from "react-router-dom";
+import Button from "../components/Button";
+import logoImage from "../assets/goFinderlogo.svg";
 const HomePage = () => {
   return (
     <>
@@ -28,7 +28,12 @@ const HomePage = () => {
       </svg>
       <div className="DashboardContainer">
         <div className="logoContainer">
-          <img className="logoImage" src={logoImage} alt="logo"></img>
+          <img
+            className="logoImage"
+            src={logoImage}
+            height="400"
+            alt="logo"
+          ></img>
           <div className="btnContainer">
             <Link to="/input">
               <Button btnValue="Start Searching"></Button>
@@ -37,7 +42,7 @@ const HomePage = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
