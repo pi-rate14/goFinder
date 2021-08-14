@@ -10,8 +10,8 @@ Companies can use this application to find individuals from top companies from a
 
 ### Landing Page
 
-![Landing Page](/src/assets/UI/Dashboard.png)
+![Landing Page](/Frontend/gofinder/src/assets/UI/Dashboard.png)
 
 ### Results Page
 
-![Results Page](/src/assets/UI/Results.png)
+![Results Page](/Frontend/gofinder/src/assets/UI/Results.png)
