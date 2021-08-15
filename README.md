@@ -1,4 +1,4 @@
-# EthCrowd
+# GoFinder
 
 A single page React Application that lets companies find leads for various industries like Autombile, Textiles, IT etc.
 
